@@ -97,8 +97,8 @@ class ViewController: UIViewController {
                 imageView.image = self.images[index]
                 titleLabel.text = self.titles[index]
                 titleLabel.textColor = UIColor.red
-        })
-        
+            })
+            
             .setupPageDidClickAction({ (clickedIndex) in
                 // 处理点击
                 print(clickedIndex)
